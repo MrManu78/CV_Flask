@@ -23,6 +23,10 @@ def resume_2():
 def resume_template():
     return render_template("resume_template.html")
 
+@app.route('/envoi_msg')
+def resume_template():
+    return render_template("envoi_msg.html")
+    
 # Création d'une nouvelle route pour la lecture de la BDD
 
 @app.route("/consultation/")
