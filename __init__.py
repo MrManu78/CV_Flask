@@ -51,10 +51,6 @@ def get_post(post_id):
     
     # Renvoie la réponse JSON
     return jsonify(post=json_post)
-
-@app.route('/resume_1')
-def home():
-    return render_template("envoi_msg")
     
 if(__name__ == "__main__"):
     app.run()
