@@ -1,3 +1,6 @@
+<!DOCTYPE html>
+<html>
+
 <form action="" method="get" class="form-example">
   <div class="form-example">
     <label for="name">Entrer message </label>
@@ -8,3 +11,4 @@
     <input type="submit" value="Envoyer" />
   </div>
 </form>
+</html>
